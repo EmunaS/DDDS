@@ -1,11 +1,3 @@
-import tkinter as tk
-from tkinter import messagebox
-
-#Create a small window with a message
-root = tk.Tk()
-root.withdraw()  #Hides the main window
-messagebox.showinfo("Driver Drowsiness Detection", "Detecting driver fatigue...\nPlease look at the camera")
-
 import cv2
 import mediapipe as mp
 import math
