@@ -11,7 +11,7 @@ A **real-time driver drowsiness detection system**, the project includes **three
 ---
 
 ## 📁 Project Structure
-
+```
 DDDS_upload/
 ├── DDDSthefolder/ # Implementation using Haar cascades
 │ └── DDDS.py
@@ -19,7 +19,7 @@ DDDS_upload/
 │ └── DDDS_DLIB.py
 └── DDDS_MPthefolder/ # Implementation using MediaPipe Face Mesh
 └── DDDS_MP.py
-
+```
 ---
 
 ## ⚙️ Setup & Installation
@@ -66,11 +66,6 @@ exploring different real-time facial detection methods for driver safety.
 **Emuna S.**  
 [GitHub Profile →](https://github.com/EmunaS)
 
-💡
-- Make sure your webcam is connected and accessible.
-- Make sure you have the correct Python version (3.11 recommended).
-- If you are using DLIB, ensure dlib or dlib-bin is installed depending on your system.
-
 ## ⭐ Acknowledgements
 
 This project was built using the following amazing open-source libraries:
@@ -82,5 +77,9 @@ This project was built using the following amazing open-source libraries:
 
 
 
+💡
+- Make sure your webcam is connected and accessible.
+- Make sure you have the correct Python version (3.11 recommended).
+- If you are using DLIB, ensure dlib or dlib-bin is installed depending on your system.
 
 
